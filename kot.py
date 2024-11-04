@@ -1,11 +1,10 @@
-immutable_var = tuple_ = 1,2,3,4,5, 5.5
+immutable_var = tuple_ = 1, 2, 'a', 'b'
 print(immutable_var)
 
-immutable_var
-print(immutable_var) # данный кортеж не поддерживает обращения по элементам
+# immutable_var[0] = 60
+# print(immutable_var) # данный кортеж не поддерживает обращения по элементам
 
-mutable_list = ["tomato", "watermelon", "plum"]
-print(mutable_list[0:3])
+mutable_list = ['tomato', 'watermelon', 'plum', 'corn', 'pumpkin']
 
-mutable_list[0:3] = "banana", "pumpkin", "beet"
+mutable_list[0:5] = 1, 2, 'a', 'b', 'Modified'
 print(mutable_list)
