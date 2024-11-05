@@ -6,5 +6,5 @@ print(immutable_var)
 
 mutable_list = ['tomato', 'watermelon', 'plum', 'corn', 'pumpkin']
 
-mutable_list[0:5] = 1, 2, 'a', 'b', 'Modified'
+mutable_list[0] = 1
 print(mutable_list)
